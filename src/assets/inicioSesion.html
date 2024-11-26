@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="css/inicioSesion.css">
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"><img src="/assets/img/loading.gif" alt="#" /></div>
+    </div> 
+
+    <div class="wrapper">
+        <form action="#">
+            <h2>Inicio de sesion</h2>
+            <div class="input-field">
+                <input type="text" required>
+                <label>Ingresa tu email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" required>
+                <label>Ingresa tu contraseña</label>
+            </div>
+            <div class="forget">
+                <label for="remember">
+                    <input type="checkbox" id="remember">
+                    <p>Recuerdame</p>
+                </label>
+                <a href="recuperar.html">¿Olvidaste tu contraseña?</a>
+            </div>
+            <button class="index" type="submit"> <a href="/index.html">Iniciar sesion</a></button>
+            <div class="register">
+                <p>¿no tienes cuenta? <a href="registro.html">registrate</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="/assets/js/inicioSesion.js"></script>
+    <script src="/assets/js/index.js"></script>
+</body>
+</html>
